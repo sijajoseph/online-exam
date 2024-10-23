@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exam-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.exam-button {
+  display: inline-block;
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+.mcq-page {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-page {
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+}

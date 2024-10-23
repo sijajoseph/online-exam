@@ -1,0 +1,36 @@
+/* src/components/Tests.css */
+.tests-container {
+    background-color: lightpink;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .tests-header {
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .tabs button {
+    margin: 0 10px;
+    padding: 10px;
+  }
+  
+  .questions {
+    margin-top: 20px;
+  }
+  
+  .results-dialog {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+  }
+  
